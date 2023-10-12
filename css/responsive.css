@@ -1,0 +1,60 @@
+@media screen and (max-width: 1147px) {
+    #content {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 892px) {
+    .navbar  {
+        display: none;
+    }
+    div.center-logo {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        background-color: #1a1a1a;
+    }
+    .slideshow-container {
+        position: relative;
+        max-width: 100%;
+        height: 300px;
+        margin: 11% auto;
+        z-index: -1;
+    }
+}
+@media screen and (max-width: 592px) {
+    .welcome {
+        text-align: center;
+        font-size: 30px;
+        margin-top: -160px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    .welcome-note {
+        text-align: center;
+        font-size: 15px;
+        margin: 0 10%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .sis-text {
+        font-size: 15px;
+    }
+    .description-content{
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        margin: 5px;
+        text-align: left;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 15%;
+        transform: translateY(-50%);
+        padding: 3px;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        cursor: pointer;
+        z-index: 1;
+        user-select: none;
+    }
+}

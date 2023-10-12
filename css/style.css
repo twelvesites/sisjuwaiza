@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+header .logo {
+    width: 42%;
+
+    
+}
+div.center-logo {
+    width: 100%;
+    height: auto;
+    background-color: #1a1a1a;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #c70012;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 100;
+}
+
+/* Style for the navigation links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+#main-content {
+    margin-top: 20%;
+}
+.welcome {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.welcome-note {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 20%;
+    font-family: 'Poppins', sans-serif;
+}
+.sis-text {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+    text-align: left;
+	margin: 60px 30px;
+}
+#content {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: -10px;
+}
+.shj {
+	width:  auto;
+    height: 80%;
+    z-index: 1;
+	border-radius: 10px;
+}
+.description-content{
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+	margin-right: 20px;
+    text-align: left;
+}
+#about {
+    background-color: #dddddd;
+}
