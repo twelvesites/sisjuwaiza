@@ -1,0 +1,15 @@
+.animated-element {
+    animation: fadeIn 1s ease-in-out forwards; /* Use keyframes animation */
+        margin: 10px;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateX(-20px); /* Start position and opacity */
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0); /* End position and opacity */
+        }
+    }
