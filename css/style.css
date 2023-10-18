@@ -287,11 +287,92 @@ tr:nth-child(even) {
 
 #onlinereg {
     padding: 10px 20px;
-    border-radius: 70px;
+    border-radius: 20px;
     width: 80%;
     background-color: #7e7e7e;
+	font-family: 'Poppins', sans-serif;
   }
 .org h1 {
     font-size: 30px;
     color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+#onlineregdes {
+    margin: 50px 70px;
+    text-align: left;
+    font-size: 15px;
+    font-weight:bolder;
+	font-family: 'Poppins', sans-serif;
+}
+#infrastructure  {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3c3c3c;
+    color: #fff;
+    width: auto;
+    height: auto;
+}
+.infrastructure-images {
+    width: 300px;
+    height: 100%;
+    z-index: inherit;
+}
+.inf-text {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+    text-align: left;
+	margin: 20px 30px;
+}
+.inf-text1 {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+    text-align: center;
+	margin: 20px 30px;
+}
+.description-inf {
+    font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+    margin: 25px;
+}
+#labs {
+    background-color: #3c3c3c;
+	font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: auto;
+    height: auto;
+}
+.image-container {
+    text-align: center;
+}
+.image {
+    display: inline-block;
+    margin: 30px 10px;
+    width: 400px;
+}
+.steps-box {
+    border: 1px solid #ccc;
+    padding: 50px;
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.step {
+    margin-bottom: 10px;
+}
+hr {
+    margin: 20px 0 20px 0;
+}
+.age-box {
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 200px ;
+    text-align: center;
+    margin: 10%;
+}
+#age-step {
+    display: flex;
+    justify-content: space-between;
 }
